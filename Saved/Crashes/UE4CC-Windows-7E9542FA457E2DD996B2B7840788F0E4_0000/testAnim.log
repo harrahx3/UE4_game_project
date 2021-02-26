@@ -1,0 +1,317 @@
+﻿Log file open, 08/26/18 15:20:16
+LogInit:Display: Running engine for game: testAnim
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1937958403) SRandInit(-1937958402).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.479800
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.26-13.20.21:758][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.26-13.20.21:758][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.26-13.20.22:124][  0]LogInit: Computer: DESKTOP-AO1A36M
+[2018.08.26-13.20.22:124][  0]LogInit: User: Hyacinthe
+[2018.08.26-13.20.22:124][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.08.26-13.20.22:124][  0]LogInit: High frequency timer resolution =2.143478 MHz
+[2018.08.26-13.20.22:146][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.08.26-13.20.22:146][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.26-13.20.22:146][  0]LogMemory: Process Physical Memory: 272.21 MB used, 272.21 MB peak
+[2018.08.26-13.20.22:146][  0]LogMemory: Process Virtual Memory: 258.68 MB used, 258.68 MB peak
+[2018.08.26-13.20.22:146][  0]LogMemory: Physical Memory: 3061.35 MB used,  950.04 MB free, 4011.39 MB total
+[2018.08.26-13.20.22:146][  0]LogMemory: Virtual Memory: 4768.65 MB used,  950.04 MB free, 134217728.00 MB total
+[2018.08.26-13.20.26:863][  0]LogInit: Using OS detected language (en-GB).
+[2018.08.26-13.20.26:863][  0]LogInit: Using OS detected locale (en-GB).
+[2018.08.26-13.20.27:578][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.08.26-13.20.40:971][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.26-13.20.41:417][  0]LogD3D11RHI:    0. 'AMD Radeon R5 M330' (Feature Level 11_0)
+[2018.08.26-13.20.41:417][  0]LogD3D11RHI:       2040/0/2005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.08.26-13.20.41:434][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2018.08.26-13.20.41:434][  0]LogD3D11RHI:       128/0/2005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.08.26-13.20.41:442][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.26-13.20.41:442][  0]LogD3D11RHI:       0/0/2005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.26-13.20.41:442][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.26-13.20.41:566][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.26-13.20.41:567][  0]LogD3D11RHI:     GPU DeviceId: 0x6660 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.26-13.20.41:567][  0]LogWindows: EnumDisplayDevices:
+[2018.08.26-13.20.41:568][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2018.08.26-13.20.41:568][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.08.26-13.20.41:569][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.08.26-13.20.41:570][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.26-13.20.41:570][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R5 M330
+[2018.08.26-13.20.41:570][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.26-13.20.41:570][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.26-13.20.41:570][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.08.26-13.20.42:083][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.26-13.20.42:944][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 3)
+[2018.08.26-13.20.43:148][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Intermediate/Shaders/WorkingDirectory/8864/).
+[2018.08.26-13.20.43:149][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hyacinthe/AppData/Local/Temp/UnrealShaderWorkingDir/BA996AF840FBCD5C7E5701BA6316BD33/'.
+[2018.08.26-13.20.43:166][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.08.26-13.20.58:951][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.26-13.20.59:081][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.08.26-13.20.59:207][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.26-13.20.59:580][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.08.26-13.20.59:888][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.08.26-13.21.00:120][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.26-13.21.00:389][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.26-13.21.00:805][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.26-13.21.00:950][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.08.26-13.21.01:453][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.08.26-13.21.01:747][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.08.26-13.21.02:125][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.08.26-13.21.02:531][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.08.26-13.21.02:879][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.08.26-13.21.03:225][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.08.26-13.21.04:017][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.08.26-13.21.04:017][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.08.26-13.21.04:335][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.08.26-13.21.05:307][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.08.26-13.21.05:539][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.08.26-13.21.05:740][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.26-13.21.06:081][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.26-13.21.06:473][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.26-13.21.06:954][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.08.26-13.21.06:954][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.08.26-13.21.13:248][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.08.26-13.21.14:598][  0]LogDerivedDataCache: Loaded boot cache 1.31s 90MB C:/Users/Hyacinthe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.08.26-13.21.14:599][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Hyacinthe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.08.26-13.21.14:599][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.26-13.21.14:599][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.26-13.21.14:599][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.26-13.21.14:599][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.26-13.21.14:793][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.26-13.21.14:863][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hyacinthe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.26-13.21.14:901][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.26-13.21.14:902][  0]LogSlate: Using Freetype 2.6.0
+[2018.08.26-13.21.15:103][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.26-13.21.15:103][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.26-13.21.21:531][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.26-13.21.22:444][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.08.26-13.21.23:793][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.26-13.21.24:220][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.26-13.21.24:682][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.26-13.21.24:682][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.08.26-13.21.24:682][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.08.26-13.21.32:684][  0]LogNetVersion: testAnim , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 183923309)
+[2018.08.26-13.21.33:050][  0]LogAssetRegistry: FAssetRegistry took 0.0293 seconds to start up
+[2018.08.26-13.21.33:748][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.652826 seconds
+[2018.08.26-13.21.33:766][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.08.26-13.21.33:766][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.08.26-13.21.33:767][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.26-13.21.34:161][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.08.26-13.22.25:512][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.26-13.22.25:911][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.26-13.22.31:478][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.08.26-13.22.35:722][  0]SourceControl: Info Source control is disabled
+[2018.08.26-13.22.35:778][  0]SourceControl: Info Source control is disabled
+[2018.08.26-13.22.36:267][  0]SourceControl: Info Source control is disabled
+[2018.08.26-13.22.37:253][  0]SourceControl: Info Source control is disabled
+[2018.08.26-13.22.45:421][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.26-13.22.52:481][  0]LogEngine: Initializing Engine...
+[2018.08.26-13.22.52:683][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.26-13.22.55:468][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.26-13.22.55:468][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.26-13.22.58:115][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.26-13.22.58:984][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.26-13.23.01:628][  0]LogInit: FAudioDevice initialized.
+[2018.08.26-13.23.02:252][  0]LogDerivedDataCache: Saved boot cache 0.62s 90MB C:/Users/Hyacinthe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.08.26-13.23.02:444][  0]LogInit: Texture streaming: Enabled
+[2018.08.26-13.23.05:248][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.26-13.23.08:104][  0]LogInit: Transaction tracking system initialized
+[2018.08.26-13.23.11:355][  0]BlueprintLog: New page: Editor Load
+[2018.08.26-13.23.24:195][  0]LocalizationService: Info Localization service is disabled
+[2018.08.26-13.23.31:750][  0]LogConsoleResponse:Display: 
+[2018.08.26-13.23.37:498][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hyacinthe/Documents/Unreal Projects/testAnim/Content/' took 0.07s
+[2018.08.26-13.23.37:498][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.26-13.23.37:499][  0]LogCook:Display: Mobile HDR setting 1
+[2018.08.26-13.23.50:396][  0]SourceControl: Info Source control is disabled
+[2018.08.26-13.23.50:478][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Content/Maps/Level_Game.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.26-13.23.50:765][  0]LightingResults: New page: Lighting Build
+[2018.08.26-13.23.51:358][  0]MapCheck: New page: Map Check
+[2018.08.26-13.23.51:358][  0]LightingResults: New page: Lighting Build
+[2018.08.26-13.24.15:769][  0]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 8X8)
+[2018.08.26-13.24.15:784][  0]LogAIModule: Creating AISystem for world Level_Game
+[2018.08.26-13.24.16:108][  0]LogMaterial:Warning: Material /Game/StarterContent/Props/Materials/M_Bush.M_Bush needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.08.26-13.24.16:201][  0]LogMaterial: Missing cached shader map for material M_Bush, compiling. 
+[2018.08.26-13.24.16:735][  0]MapCheck:Warning: Warning M_Bush Material /Game/StarterContent/Props/Materials/M_Bush.M_Bush was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.08.26-13.24.35:405][  0]LogEditorServer: Finished looking for orphan Actors (0.005 secs)
+[2018.08.26-13.24.36:639][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.26-13.24.37:241][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 592.608ms to complete.
+[2018.08.26-13.24.38:012][  0]LogFileHelpers: Loading map 'Level_Game' took 47.598
+[2018.08.26-13.24.45:994][  0]LogCollectionManager: Loaded 0 collections in 0.025637 seconds
+[2018.08.26-13.24.47:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Collections/' took 0.01s
+[2018.08.26-13.24.47:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hyacinthe/Documents/Unreal Projects/testAnim/Content/Developers/Hyacinthe/Collections/' took 0.01s
+[2018.08.26-13.24.47:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hyacinthe/Documents/Unreal Projects/testAnim/Content/Collections/' took 0.01s
+[2018.08.26-13.24.47:032][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000021 seconds
+[2018.08.26-13.24.47:156][  0]LogContentBrowser: Native class hierarchy populated in 0.0862 seconds. Added 2329 classes and 491 folders.
+[2018.08.26-13.24.47:907][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2018.08.26-13.24.52:623][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2018.08.26-13.24.53:319][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2018.08.26-13.24.58:338][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.08.26-13.25.10:680][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.08.26-13.25.12:070][  0]LogSlate: Took 0.156667 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.26-13.25.12:327][  0]LogSlate: Took 0.086799 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.26-13.25.12:956][  0]LogSlate: Took 0.290805 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.26-13.25.16:660][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.testAnim
+[2018.08.26-13.25.16:660][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.08.26-13.25.16:660][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2018.08.26-13.25.16:660][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.08.26-13.25.16:660][  0]LogTemp: BranchPath = DESKTOP-AO1A36M/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-AO1A36M/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2018.08.26-13.25.16:660][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Hyacinthe\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.08.26-13.25.16:660][  0]LogRenderer: Reallocating scene render targets to support 812x364 NumSamples 1 (Frame:1).
+[2018.08.26-13.25.24:880][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.08.26-13.25.25:542][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0030 seconds. Added 1 classes and 2 folders.
+[2018.08.26-13.25.25:543][  0]LogLoad: (Engine Initialization) Total time: 329.45 seconds
+[2018.08.26-13.25.25:543][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 3.84 seconds
+[2018.08.26-13.25.25:543][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.08.26-13.25.25:887][  0]LogOcInput: OculusInput pre-init called
+[2018.08.26-13.25.25:897][  0]LogHMD: Starting GearVRController plugin
+[2018.08.26-13.25.27:292][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.08.26-13.25.29:170][  2]LogSlate: Took 0.179727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.26-13.25.30:285][  6]LogAssetRegistry: Asset discovery search completed in 237.2580 seconds
+[2018.08.26-13.25.30:376][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.08.26-13.25.30:376][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000163 seconds (updated 0 objects)
+[2018.08.26-13.29.45:957][822]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.08.26-13.30.17:770][880]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.08.26-13.30.42:846][806]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.08.26-13.30.57:286][355]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.08.26-13.31.22:194][285]LogSlate: Took 0.000726 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.26-13.32.53:963][788]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.08.26-13.33.05:740][203]LogRenderer: Reallocating scene render targets to support 832x364 NumSamples 1 (Frame:6144).
+[2018.08.26-13.33.05:832][204]LogRenderer: Reallocating scene render targets to support 844x364 NumSamples 1 (Frame:6146).
+[2018.08.26-13.33.05:889][205]LogRenderer: Reallocating scene render targets to support 860x364 NumSamples 1 (Frame:6148).
+[2018.08.26-13.33.06:046][209]LogRenderer: Reallocating scene render targets to support 864x364 NumSamples 1 (Frame:6152).
+[2018.08.26-13.33.06:180][211]LogRenderer: Reallocating scene render targets to support 872x364 NumSamples 1 (Frame:6156).
+[2018.08.26-13.33.20:990][850]LogSlate: Took 0.132398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.08.26-13.33.57:681][ 16]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.08.26-13.34.01:666][216]LogEditorViewport: Clicking on Actor (LMB): BP_Zombie_C (BP_Zombie2)
+[2018.08.26-13.34.43:237][946]Cmd: POLY TEXPAN U=4.000000 V=0.000000
+[2018.08.26-13.34.45:589][ 21]Cmd: POLY TEXPAN U=16.000000 V=0.000000
+[2018.08.26-13.34.46:920][ 69]Cmd: POLY TEXPAN U=64.000000 V=0.000000
+[2018.08.26-13.34.48:100][111]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2018.08.26-13.34.50:853][202]Cmd: POLY TEXPAN U=4.000000 V=0.000000
+[2018.08.26-13.34.52:611][262]Cmd: POLY TEXPAN U=16.000000 V=0.000000
+[2018.08.26-13.34.54:170][317]Cmd: POLY TEXPAN U=64.000000 V=0.000000
+[2018.08.26-13.35.02:902][597]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2018.08.26-13.35.06:357][717]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2018.08.26-13.35.07:153][747]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2018.08.26-13.35.09:030][810]Cmd: POLY TEXPAN U=0.000000 V=64.000000
+[2018.08.26-13.36.31:887][814]Cmd: POLY TEXMULT UU=-1 VV=1
+[2018.08.26-13.36.33:193][865]Cmd: POLY TEXMULT UU=1 VV=-1
+[2018.08.26-13.38.52:491][886]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.26-13.40.46:326][941]LogSlate: Took 0.021253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.26-13.40.51:285][941]LogRenderer: Reallocating scene render targets to support 1016x612 NumSamples 1 (Frame:1).
+[2018.08.27-08.26.43:811][793]LogSavePackage: Save=1252783.38ms
+[2018.08.27-08.26.44:084][793]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Level_Game_Auto1F5186F514DF6AFE5AA554AB7FEA705DE.tmp' to '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Autosaves/Game/Maps/Level_Game_Auto1.umap'
+[2018.08.27-08.26.44:352][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Autosaves/Game/Maps/Level_Game_Auto1.umap
+[2018.08.27-08.26.44:944][793]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_Game' took 67395.774
+[2018.08.27-08.26.44:944][793]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 67395.774
+[2018.08.27-08.26.45:523][793]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Shapes/Shape_Cylinder] ([1] browsable assets)...
+[2018.08.27-08.26.50:349][793]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder]
+[2018.08.27-08.26.50:349][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Shapes/Shape_Cylinder]
+[2018.08.27-08.26.55:393][793]LogSavePackage: Save=433.71ms
+[2018.08.27-08.26.55:393][793]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Shape_Cylinder_Auto17C0AD4DA4AEA67FB0A80B9900C24BD6C.tmp' to '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Autosaves/Game/StarterContent/Shapes/Shape_Cylinder_Auto1.uasset'
+[2018.08.27-08.26.55:396][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Autosaves/Game/StarterContent/Shapes/Shape_Cylinder_Auto1.uasset
+[2018.08.27-08.26.55:396][793]LogFileHelpers: Auto-saving content packages took 10.443
+[2018.08.27-08.28.49:030][585]LogStaticMesh: Building static mesh Cylinder_Brush_StaticMesh...
+[2018.08.27-08.28.49:082][585]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.08.27-08.28.49:226][585]LogStaticMesh: Built static mesh [0.20s] /Game/staticMeshs/Cylinder_Brush_StaticMesh.Cylinder_Brush_StaticMesh
+[2018.08.27-08.28.50:231][585]LogActorFactory: Actor Factory created Cylinder_Brush_StaticMesh
+[2018.08.27-08.28.52:571][585]EditorErrors: New page: Actor Reattachment
+[2018.08.27-08.28.58:597][586]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.08.27-08.29.02:775][589]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.08.27-08.29.15:071][988]LogStaticMesh: Building static mesh Cone_Brush_StaticMesh...
+[2018.08.27-08.29.15:072][988]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.08.27-08.29.15:081][988]LogStaticMesh: Built static mesh [0.24s] /Game/staticMeshs/Cone_Brush_StaticMesh.Cone_Brush_StaticMesh
+[2018.08.27-08.29.15:477][988]LogActorFactory: Actor Factory created Cone_Brush_StaticMesh
+[2018.08.27-08.29.15:588][988]EditorErrors: New page: Actor Reattachment
+[2018.08.27-08.29.21:734][256]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder_Brush_StaticMesh)
+[2018.08.27-08.32.39:968][810]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/Blueprints/Cone_Brush_StaticMesh_Blueprint.Cone_Brush_StaticMesh_Blueprint_C:StaticMeshComponent0_GEN_VARIABLE is already used by StaticMeshComponent /Game/Maps/Level_Game.Level_Game:PersistentLevel.Cone_Brush_StaticMesh.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2018.08.27-08.32.40:096][810]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/Blueprints/Cone_Brush_StaticMesh_Blueprint.Cone_Brush_StaticMesh_Blueprint_C:StaticMeshComponent01_GEN_VARIABLE is already used by StaticMeshComponent /Game/Maps/Level_Game.Level_Game:PersistentLevel.Cylinder_Brush_StaticMesh.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2018.08.27-08.32.52:132][810]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.1847 seconds. Added 112 classes and 0 folders.
+[2018.08.27-08.34.19:131][877]BlueprintLog: New page: Compile Cone_Brush_StaticMesh_Blueprint
+[2018.08.27-08.34.23:198][909]LogSavePackage: Save=59.78ms
+[2018.08.27-08.34.23:198][909]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Cone_Brush_StaticMesh_Blueprint21BE21094112FAFF380E2796A5843CD3.tmp' to '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Content/Blueprints/Cone_Brush_StaticMesh_Blueprint.uasset'
+[2018.08.27-08.34.23:246][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Content/Blueprints/Cone_Brush_StaticMesh_Blueprint.uasset
+[2018.08.27-08.35.11:628][733]LogSlate: Took 0.651432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.27-08.35.16:269][734]LogSlate: Took 0.245653 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.08.27-08.40.55:520][331]LogSavePackage: Save=29569.80ms
+[2018.08.27-08.40.55:521][331]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Level_Game_Auto2B640BCB84A149364DD39C284E76CAD39.tmp' to '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Autosaves/Game/Maps/Level_Game_Auto2.umap'
+[2018.08.27-08.40.55:739][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Autosaves/Game/Maps/Level_Game_Auto2.umap
+[2018.08.27-08.40.55:826][331]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_Game' took 66.229
+[2018.08.27-08.40.55:826][331]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 66.229
+[2018.08.27-08.40.55:847][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_door] ([1] browsable assets)...
+[2018.08.27-08.40.56:030][331]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_door.BP_door]
+[2018.08.27-08.40.56:030][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_door]
+[2018.08.27-08.40.57:988][331]LogSavePackage: Save=1863.19ms
+[2018.08.27-08.40.58:167][331]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/BP_door_Auto26C2C5A1F47FF9138C20B06BFC888F32B.tmp' to '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Autosaves/Game/Blueprints/BP_door_Auto2.uasset'
+[2018.08.27-08.40.58:229][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Autosaves/Game/Blueprints/BP_door_Auto2.uasset
+[2018.08.27-08.40.58:236][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/staticMeshs/Cylinder_Brush_StaticMesh] ([1] browsable assets)...
+[2018.08.27-08.40.58:280][331]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/staticMeshs/Cylinder_Brush_StaticMesh.Cylinder_Brush_StaticMesh]
+[2018.08.27-08.40.58:280][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/staticMeshs/Cylinder_Brush_StaticMesh]
+[2018.08.27-08.40.58:301][331]LogSavePackage: Save=17.30ms
+[2018.08.27-08.40.58:301][331]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Cylinder_Brush_StaticMesh_Auto29476D3E044820335738BF3A064137828.tmp' to '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Autosaves/Game/staticMeshs/Cylinder_Brush_StaticMesh_Auto2.uasset'
+[2018.08.27-08.40.58:304][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Autosaves/Game/staticMeshs/Cylinder_Brush_StaticMesh_Auto2.uasset
+[2018.08.27-08.40.58:306][331]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/staticMeshs/Cone_Brush_StaticMesh] ([1] browsable assets)...
+[2018.08.27-08.40.58:325][331]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/staticMeshs/Cone_Brush_StaticMesh.Cone_Brush_StaticMesh]
+[2018.08.27-08.40.58:325][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/staticMeshs/Cone_Brush_StaticMesh]
+[2018.08.27-08.40.58:482][331]LogSavePackage: Save=25.73ms
+[2018.08.27-08.40.58:483][331]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Cone_Brush_StaticMesh_Auto20B28790841033FD7DA320882AC96ED72.tmp' to '../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Autosaves/Game/staticMeshs/Cone_Brush_StaticMesh_Auto2.uasset'
+[2018.08.27-08.40.58:486][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Unreal Projects/testAnim/Saved/Autosaves/Game/staticMeshs/Cone_Brush_StaticMesh_Auto2.uasset
+[2018.08.27-08.40.58:486][331]LogFileHelpers: Auto-saving content packages took 2.649
+[2018.08.27-08.41.02:217][455]BlueprintLog: New page: Compile BP_door
+[2018.08.27-08.42.50:334][887]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.08.27-08.45.18:666][226]LogActorFactory: Actor Factory created SM_WindowFrame
+[2018.08.27-08.45.21:064][348]LogActorFactory: Actor Factory created SM_WindowFrame
+[2018.08.27-08.45.27:851][592]LogActorFactory: Actor Factory created SM_GlassWindow
+[2018.08.27-08.45.30:703][762]LogActorFactory: Actor Factory created SM_GlassWindow
+[2018.08.27-08.46.04:445][653]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WindowFrame)
+[2018.08.27-08.46.28:781][753]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/Blueprints/BP_Window.BP_Window_C:StaticMeshComponent0_GEN_VARIABLE is already used by StaticMeshComponent /Game/Maps/Level_Game.Level_Game:PersistentLevel.SM_GlassWindow_7.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2018.08.27-08.46.28:814][753]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/Blueprints/BP_Window.BP_Window_C:StaticMeshComponent01_GEN_VARIABLE is already used by StaticMeshComponent /Game/Maps/Level_Game.Level_Game:PersistentLevel.SM_WindowFrame_4.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2018.08.27-08.47.51:916][720]Cmd: MODE GRID=0
+[2018.08.27-08.50.16:542][456]LogD3D11RHI:Error: Result failed 
+ at D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:290 
+ with error E_INVALIDARG
+[2018.08.27-08.50.18:932][456]LogWindows: Windows GetLastError: The operation completed successfully. (0)

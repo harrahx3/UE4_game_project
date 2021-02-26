@@ -1,0 +1,961 @@
+﻿Log file open, 01/22/19 19:03:17
+LogInit:Display: Running engine for game: testAnim
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1386226515) SRandInit(1386226515).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 4.795042
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.22-18.03.21:033][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.22-18.03.21:033][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.22-18.03.21:327][  0]LogInit: Computer: DESKTOP-AO1A36M
+[2019.01.22-18.03.21:327][  0]LogInit: User: Hyacinthe
+[2019.01.22-18.03.21:327][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.01.22-18.03.21:327][  0]LogInit: High frequency timer resolution =2.143475 MHz
+[2019.01.22-18.03.21:340][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2019.01.22-18.03.21:340][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.22-18.03.21:340][  0]LogMemory: Process Physical Memory: 274.19 MB used, 274.19 MB peak
+[2019.01.22-18.03.21:340][  0]LogMemory: Process Virtual Memory: 266.53 MB used, 266.53 MB peak
+[2019.01.22-18.03.21:340][  0]LogMemory: Physical Memory: 2748.34 MB used,  1263.04 MB free, 4011.39 MB total
+[2019.01.22-18.03.21:340][  0]LogMemory: Virtual Memory: 4778.71 MB used,  1263.04 MB free, 134217728.00 MB total
+[2019.01.22-18.03.23:523][  0]LogInit: Using OS detected language (en-GB).
+[2019.01.22-18.03.23:523][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.22-18.03.23:911][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.01.22-18.03.33:481][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.22-18.03.35:360][  0]LogD3D11RHI:    0. 'AMD Radeon R5 M330' (Feature Level 11_0)
+[2019.01.22-18.03.35:360][  0]LogD3D11RHI:       2040/0/2005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2019.01.22-18.03.35:383][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2019.01.22-18.03.35:383][  0]LogD3D11RHI:       128/0/2005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.22-18.03.35:393][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.22-18.03.35:393][  0]LogD3D11RHI:       0/0/2005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.22-18.03.35:393][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.22-18.03.35:448][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.22-18.03.35:448][  0]LogD3D11RHI:     GPU DeviceId: 0x6660 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.22-18.03.35:448][  0]LogWindows: EnumDisplayDevices:
+[2019.01.22-18.03.35:448][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2019.01.22-18.03.35:449][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2019.01.22-18.03.35:450][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2019.01.22-18.03.35:450][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.01.22-18.03.35:450][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R5 M330
+[2019.01.22-18.03.35:450][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.01.22-18.03.35:450][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.01.22-18.03.35:451][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.01.22-18.03.35:743][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.22-18.03.36:151][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2019.01.22-18.03.36:394][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Intermediate/Shaders/WorkingDirectory/5736/).
+[2019.01.22-18.03.36:395][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hyacinthe/AppData/Local/Temp/UnrealShaderWorkingDir/267E4D604C3BCE49A2120280AA353E03/'.
+[2019.01.22-18.03.36:411][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.01.22-18.03.48:226][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.22-18.03.48:545][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.01.22-18.03.48:657][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.22-18.03.48:925][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.01.22-18.03.49:373][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.01.22-18.03.49:661][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.22-18.03.49:955][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.22-18.03.50:172][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.22-18.03.50:503][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.01.22-18.03.50:890][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.01.22-18.03.51:281][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.01.22-18.03.51:503][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.01.22-18.03.51:784][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.01.22-18.03.52:137][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.01.22-18.03.52:502][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.01.22-18.03.53:185][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.01.22-18.03.53:185][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.01.22-18.03.53:514][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.01.22-18.03.54:200][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.01.22-18.03.54:363][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.01.22-18.03.54:611][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.22-18.03.54:880][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.22-18.03.55:213][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.22-18.03.55:612][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.01.22-18.03.55:612][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.01.22-18.04.00:694][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.01.22-18.04.02:018][  0]LogDerivedDataCache: Loaded boot cache 1.30s 90MB C:/Users/Hyacinthe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2019.01.22-18.04.02:018][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Hyacinthe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2019.01.22-18.04.02:018][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.22-18.04.02:018][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.22-18.04.02:019][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.22-18.04.02:019][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.22-18.04.02:180][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.22-18.04.02:322][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hyacinthe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.22-18.04.02:645][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.22-18.04.02:709][  0]LogSlate: Using Freetype 2.6.0
+[2019.01.22-18.04.03:008][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.22-18.04.03:009][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.22-18.04.13:656][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.22-18.04.15:959][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.01.22-18.04.18:532][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.22-18.04.18:982][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.22-18.04.19:346][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.22-18.04.19:346][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.01.22-18.04.19:346][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.01.22-18.04.31:196][  0]LogNetVersion: testAnim , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 183923309)
+[2019.01.22-18.04.31:771][  0]LogAssetRegistry: FAssetRegistry took 0.0481 seconds to start up
+[2019.01.22-18.04.32:526][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.574650 seconds
+[2019.01.22-18.04.32:586][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2019.01.22-18.04.32:586][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2019.01.22-18.04.32:586][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.22-18.04.33:076][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.01.22-18.05.27:414][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.22-18.05.27:741][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.22-18.05.37:594][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.01.22-18.05.42:715][  0]SourceControl: Info Source control is disabled
+[2019.01.22-18.05.42:759][  0]SourceControl: Info Source control is disabled
+[2019.01.22-18.05.43:501][  0]SourceControl: Info Source control is disabled
+[2019.01.22-18.05.43:909][  0]SourceControl: Info Source control is disabled
+[2019.01.22-18.05.53:209][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.22-18.05.59:818][  0]LogEngine: Initializing Engine...
+[2019.01.22-18.05.59:868][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.22-18.06.05:393][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.22-18.06.05:906][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2019.01.22-18.06.11:622][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.22-18.06.13:557][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.22-18.06.18:145][  0]LogInit: FAudioDevice initialized.
+[2019.01.22-18.06.18:568][  0]LogDerivedDataCache: Saved boot cache 0.42s 90MB C:/Users/Hyacinthe/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2019.01.22-18.06.18:668][  0]LogInit: Texture streaming: Enabled
+[2019.01.22-18.06.24:883][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.22-18.06.42:708][  0]LogInit: Transaction tracking system initialized
+[2019.01.22-18.06.47:019][  0]BlueprintLog: New page: Editor Load
+[2019.01.22-18.07.04:893][  0]LocalizationService: Info Localization service is disabled
+[2019.01.22-18.07.18:567][  0]LogConsoleResponse:Display: 
+[2019.01.22-18.07.36:596][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/' took 0.13s
+[2019.01.22-18.07.36:596][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.22-18.07.36:601][  0]LogCook:Display: Mobile HDR setting 1
+[2019.01.22-18.07.52:201][  0]SourceControl: Info Source control is disabled
+[2019.01.22-18.07.52:423][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_Game.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.22-18.07.52:629][  0]LightingResults: New page: Lighting Build
+[2019.01.22-18.07.53:842][  0]MapCheck: New page: Map Check
+[2019.01.22-18.07.53:843][  0]LightingResults: New page: Lighting Build
+[2019.01.22-18.08.12:387][  0]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cone_Brush_StaticMesh'
+[2019.01.22-18.08.12:387][  0]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cone_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/Cone_Brush_StaticMesh_Blueprint.uasset.
+[2019.01.22-18.08.12:388][  0]LoadErrors:Error: Error /Game/Blueprints/Cone_Brush_StaticMesh_Blueprint : Can't find file for asset. /Game/staticMeshs/Cone_Brush_StaticMesh
+[2019.01.22-18.08.12:388][  0]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cylinder_Brush_StaticMesh'
+[2019.01.22-18.08.12:388][  0]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cylinder_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/Cone_Brush_StaticMesh_Blueprint.uasset.
+[2019.01.22-18.08.12:389][  0]LoadErrors:Error: Error /Game/Blueprints/Cone_Brush_StaticMesh_Blueprint : Can't find file for asset. /Game/staticMeshs/Cylinder_Brush_StaticMesh
+[2019.01.22-18.08.12:389][  0]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cone_Brush_StaticMesh'
+[2019.01.22-18.08.12:390][  0]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cone_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/Cone_Brush_StaticMesh_Blueprint.uasset.
+[2019.01.22-18.08.12:390][  0]LoadErrors:Error: Error /Game/Blueprints/Cone_Brush_StaticMesh_Blueprint : Can't find file for asset. /Game/staticMeshs/Cone_Brush_StaticMesh
+[2019.01.22-18.08.12:390][  0]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cylinder_Brush_StaticMesh'
+[2019.01.22-18.08.12:391][  0]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cylinder_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/Cone_Brush_StaticMesh_Blueprint.uasset.
+[2019.01.22-18.08.12:391][  0]LoadErrors:Error: Error /Game/Blueprints/Cone_Brush_StaticMesh_Blueprint : Can't find file for asset. /Game/staticMeshs/Cylinder_Brush_StaticMesh
+[2019.01.22-18.08.12:394][  0]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cone_Brush_StaticMesh'
+[2019.01.22-18.08.12:394][  0]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cone_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_Game.umap.
+[2019.01.22-18.08.12:394][  0]LoadErrors:Error: Error /Game/Maps/Level_Game : Can't find file for asset. /Game/staticMeshs/Cone_Brush_StaticMesh
+[2019.01.22-18.08.12:394][  0]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cylinder_Brush_StaticMesh'
+[2019.01.22-18.08.12:395][  0]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cylinder_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_Game.umap.
+[2019.01.22-18.08.12:395][  0]LoadErrors:Error: Error /Game/Maps/Level_Game : Can't find file for asset. /Game/staticMeshs/Cylinder_Brush_StaticMesh
+[2019.01.22-18.08.12:395][  0]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cone_Brush_StaticMesh'
+[2019.01.22-18.08.12:396][  0]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cone_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_Game.umap.
+[2019.01.22-18.08.12:396][  0]LoadErrors:Error: Error /Game/Maps/Level_Game : Can't find file for asset. /Game/staticMeshs/Cone_Brush_StaticMesh
+[2019.01.22-18.08.12:396][  0]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cylinder_Brush_StaticMesh'
+[2019.01.22-18.08.12:397][  0]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cylinder_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_Game.umap.
+[2019.01.22-18.08.12:397][  0]LoadErrors:Error: Error /Game/Maps/Level_Game : Can't find file for asset. /Game/staticMeshs/Cylinder_Brush_StaticMesh
+[2019.01.22-18.08.12:400][  0]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cone_Brush_StaticMesh'
+[2019.01.22-18.08.12:401][  0]LoadErrors: Info Failed to load /Game/staticMeshs/Cone_Brush_StaticMesh.Cone_Brush_StaticMesh Referenced by StaticMeshComponent0_GEN_VARIABLE
+[2019.01.22-18.08.12:401][  0]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cone_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_Game.umap.
+[2019.01.22-18.08.12:401][  0]LoadErrors: Info Failed to load /Game/staticMeshs/Cone_Brush_StaticMesh.Cone_Brush_StaticMesh Referenced by StaticMeshComponent0_GEN_VARIABLE
+[2019.01.22-18.08.12:401][  0]LoadErrors:Error: Error /Game/Maps/Level_Game : Can't find file for asset. /Game/staticMeshs/Cone_Brush_StaticMesh
+[2019.01.22-18.08.12:402][  0]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cylinder_Brush_StaticMesh'
+[2019.01.22-18.08.12:402][  0]LoadErrors: Info Failed to load /Game/staticMeshs/Cylinder_Brush_StaticMesh.Cylinder_Brush_StaticMesh Referenced by StaticMeshComponent01_GEN_VARIABLE
+[2019.01.22-18.08.12:403][  0]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cylinder_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_Game.umap.
+[2019.01.22-18.08.12:403][  0]LoadErrors: Info Failed to load /Game/staticMeshs/Cylinder_Brush_StaticMesh.Cylinder_Brush_StaticMesh Referenced by StaticMeshComponent01_GEN_VARIABLE
+[2019.01.22-18.08.12:403][  0]LoadErrors:Error: Error /Game/Maps/Level_Game : Can't find file for asset. /Game/staticMeshs/Cylinder_Brush_StaticMesh
+[2019.01.22-18.08.22:161][  0]LogTexture:Display: Building textures: world_war_zombie_diffuse (AutoDXT, 2048X2048)
+[2019.01.22-18.08.27:996][  0]LogMaterial: Missing cached shader map for material WorldWar_zombie_material, compiling. 
+[2019.01.22-18.08.32:768][  0]LogTexture:Display: Building textures: Texture2D_43 (BGRA8, 8X8)
+[2019.01.22-18.08.32:769][  0]LogTexture:Display: Building textures: Texture2D_61 (BGRA8, 8X8)
+[2019.01.22-18.08.32:770][  0]LogTexture:Display: Building textures: Texture2D_53 (BGRA8, 8X8)
+[2019.01.22-18.08.32:771][  0]LogTexture:Display: Building textures: Texture2D_33 (BGRA8, 8X8)
+[2019.01.22-18.08.32:772][  0]LogTexture:Display: Building textures: Texture2D_38 (BGRA8, 8X8)
+[2019.01.22-18.08.34:142][  0]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 8X8)
+[2019.01.22-18.08.34:922][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave marchedroit3...
+[2019.01.22-18.08.36:844][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/Zombie/anim/Running.Running
+[2019.01.22-18.08.36:952][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave marchegauche2...
+[2019.01.22-18.08.37:013][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave marchegauche1...
+[2019.01.22-18.08.38:602][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave coursegauche3...
+[2019.01.22-18.08.39:076][  0]LogAIModule: Creating AISystem for world Level_Game
+[2019.01.22-18.08.41:773][  0]LogMaterial:Warning: Material /Game/StarterContent/Props/Materials/M_Bush.M_Bush needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2019.01.22-18.08.42:015][  0]LogMaterial: Missing cached shader map for material M_Bush, compiling. 
+[2019.01.22-18.08.42:330][  0]MapCheck:Warning: Warning M_Bush Material /Game/StarterContent/Props/Materials/M_Bush.M_Bush was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.01.22-18.09.15:558][  0]LogEditorServer: Finished looking for orphan Actors (0.102 secs)
+[2019.01.22-18.09.21:755][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.22-18.09.24:134][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 2,273.482ms to complete.
+[2019.01.22-18.09.25:923][  0]LogFileHelpers: Loading map 'Level_Game' took 93.641
+[2019.01.22-18.09.54:349][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.22-18.09.59:387][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.testAnim
+[2019.01.22-18.09.59:387][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2019.01.22-18.09.59:387][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2019.01.22-18.09.59:387][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2019.01.22-18.09.59:387][  0]LogTemp: BranchPath = DESKTOP-AO1A36M/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-AO1A36M/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2019.01.22-18.09.59:387][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Hyacinthe\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.22-18.09.59:387][  0]LogCollectionManager: Loaded 0 collections in 0.041735 seconds
+[2019.01.22-18.09.59:954][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Collections/' took 0.01s
+[2019.01.22-18.09.59:954][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Developers/Hyacinthe/Collections/' took 0.01s
+[2019.01.22-18.09.59:954][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Collections/' took 0.01s
+[2019.01.22-18.09.59:954][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000016 seconds
+[2019.01.22-18.10.00:254][  0]LogContentBrowser: Native class hierarchy populated in 0.1062 seconds. Added 2329 classes and 491 folders.
+[2019.01.22-18.10.01:068][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2019.01.22-18.10.05:972][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2019.01.22-18.10.06:650][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2019.01.22-18.10.08:962][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.01.22-18.10.09:511][  0]LogSlate: Took 0.084309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.22-18.10.09:638][  0]LogSlate: Took 0.060572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.22-18.10.09:852][  0]LogSlate: Took 0.127544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.22-18.10.12:349][  0]LogRenderer: Reallocating scene render targets to support 812x380 NumSamples 1 (Frame:1).
+[2019.01.22-18.10.17:048][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.01.22-18.10.17:501][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0038 seconds. Added 1 classes and 2 folders.
+[2019.01.22-18.10.17:503][  0]LogLoad: (Engine Initialization) Total time: 444.72 seconds
+[2019.01.22-18.10.17:503][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 5.86 seconds
+[2019.01.22-18.10.17:503][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.01.22-18.10.17:611][  0]LogOcInput: OculusInput pre-init called
+[2019.01.22-18.10.17:621][  0]LogHMD: Starting GearVRController plugin
+[2019.01.22-18.10.17:842][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.01.22-18.10.19:828][  1]LogSlate: Took 0.021390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.01.22-18.10.19:974][  2]LogSlate: Took 0.000501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.01.22-18.10.20:011][  3]LogAssetRegistry: Asset discovery search completed in 348.2623 seconds
+[2019.01.22-18.10.20:065][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.22-18.10.20:065][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
+[2019.01.22-18.10.45:717][616]LogStreaming:Warning: Failed to open ANSI TEXT file C:/Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/HardwareSurvey/dxdiag.txt
+[2019.01.22-18.10.45:743][617]LogStreaming:Warning: Failed to open ANSI TEXT file C:/Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/HardwareSurvey/dxdiag.txt
+[2019.01.22-18.10.46:053][618]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2019.01.22-18.10.46:053][618]LogSynthBenchmark:Display: ===============
+[2019.01.22-18.10.46:053][618]LogSynthBenchmark:Display: Main Processor:
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:          ... 0.038813 s/Run 'RayIntersect'
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:          ... 0.021477 s/Run 'Fractal'
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display: 
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 4
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   CPU Perf Index 0: 66.0 (weight 1.00)
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   CPU Perf Index 1: 133.2 (weight 1.50)
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:  
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display: Graphics:
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   Adapter Name: 'AMD Radeon R5 M330'
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   Vendor Id: 0x1002
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   Device Id: 0x6660
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   Device Revision: 0x83
+[2019.01.22-18.10.46:356][618]LogSynthBenchmark:Display:   GPU Memory: 2041/0/2006 MB
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:   GPU first test: 0.31s
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.409 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.441 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.370 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.864 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.025 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.108 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.396 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:   GPU Final Results:
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.409 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.441 s/GigaPix, Confidence=100% 'TexHeavy'
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.370 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.864 s/GigaPix, Confidence=100% 'FillOnly'
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.025 s/GigaPix, Confidence=100% 'Bandwidth'
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.108 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... 0.396 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display: 
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:   GPU Perf Index 0: 8.9 (weight 1.00)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:   GPU Perf Index 1: 5.9 (weight 0.10)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:   GPU Perf Index 2: 9.6 (weight 0.10)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:   GPU Perf Index 3: 3.4 (weight 3.00)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:   GPU Perf Index 4: 2.3 (weight 1.00)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:   GPU Perf Index 5: 7.0 (weight 0.00)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:   GPU Perf Index 6: 22.4 (weight 0.00)
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:   CPUIndex: 106.3
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:   GPUIndex: 4.4
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display: 
+[2019.01.22-18.10.47:010][618]LogSynthBenchmark:Display:          ... Total Time: 0.956547 sec
+[2019.01.22-18.11.17:767][424]LogHttp:Warning: 00000263056F1000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.11.17:767][424]LogHttp:Warning: 00000263056F1000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.11.17:767][424]LogHttp:Warning: 00000263056F1000: libcurl info message cache 1 (Closing connection 0)
+[2019.01.22-18.12.17:618][997]LogHttp:Warning: 0000026304336380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.12.17:618][997]LogHttp:Warning: 0000026304336380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.12.17:618][997]LogHttp:Warning: 0000026304336380: libcurl info message cache 1 (Closing connection 1)
+[2019.01.22-18.13.17:609][ 33]LogHttp:Warning: 00000263062AE680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.13.17:609][ 33]LogHttp:Warning: 00000263062AE680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.13.17:609][ 33]LogHttp:Warning: 00000263062AE680: libcurl info message cache 1 (Closing connection 2)
+[2019.01.22-18.14.17:738][130]LogHttp:Warning: 00000263062AE380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.14.17:738][130]LogHttp:Warning: 00000263062AE380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.14.17:738][130]LogHttp:Warning: 00000263062AE380: libcurl info message cache 1 (Closing connection 3)
+[2019.01.22-18.15.17:218][206]LogTemp: Repeting last play command: Selected Viewport
+[2019.01.22-18.15.18:091][206]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-18.15.18:096][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.22-18.15.18:121][206]PIE: New page: PIE session: Level_Game (22 Jan 2019 20:15:18)
+[2019.01.22-18.15.18:140][206]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Game
+[2019.01.22-18.15.18:502][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.361737s)
+[2019.01.22-18.15.18:504][206]LogAIModule: Creating AISystem for world Level_Game
+[2019.01.22-18.15.18:518][206]LogPlayLevel: PIE: World Init took: (0.016306s)
+[2019.01.22-18.15.18:535][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Game.Level_Game to /Game/Maps/UEDPIE_0_Level_Game.Level_Game (0.395217s)
+[2019.01.22-18.15.18:676][206]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.22-18.15.18:763][206]LogInit: FAudioDevice initialized.
+[2019.01.22-18.15.19:143][206]LogLoad: Game class is 'NewGameMode_C'
+[2019.01.22-18.15.19:250][206]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Game.Level_Game up for play (max tick rate 60) at 2019.01.22-19.15.19
+[2019.01.22-18.15.19:593][206]LogWorld: Bringing up level for play took: 0.362649
+[2019.01.22-18.15.20:180][206]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0033 seconds. Added 11 classes and 0 folders.
+[2019.01.22-18.15.20:296][206]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2019.01.22-18.15.20:567][206]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Game 2.338
+[2019.01.22-18.15.20:567][206]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-18.16.17:246][486]LogHttp:Warning: 0000026305859180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.16.17:246][486]LogHttp:Warning: 0000026305859180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.16.17:246][486]LogHttp:Warning: 0000026305859180: libcurl info message cache 1 (Closing connection 4)
+[2019.01.22-18.16.44:142][ 89]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array inventory of length 0!
+[2019.01.22-18.17.15:792][971]LogCharacterMovement: BP_Zombie_2 is stuck and failed to move! Velocity: X=-21.45 Y=-64.81 Z=0.00 Location: X=265.06 Y=-247.07 Z=110.43 Normal: X=0.46 Y=0.00 Z=-0.89 PenetrationDepth:0.036 Actor:BP_Lift_338 Component:Platform BoneName:None (0 other events since notify)
+[2019.01.22-18.17.17:618][ 77]LogHttp:Warning: 0000026312C14280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.17.17:618][ 77]LogHttp:Warning: 0000026312C14280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.17.17:618][ 77]LogHttp:Warning: 0000026312C14280: libcurl info message cache 1 (Closing connection 5)
+[2019.01.22-18.17.31:526][900]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Akai
+	BP_box_C /Game/Maps/UEDPIE_0_Level_Game.Level_Game:PersistentLevel.BP_box_185
+	Function /Game/Blueprints/BP_box.BP_box_C:ExecuteUbergraph_BP_box:0218
+[2019.01.22-18.17.31:538][900]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBP_Akai from function: 'ExecuteUbergraph_BP_box' from node: Add Life in graph: EventGraph in object: BP_box with description: Accessed None trying to read property K2Node_DynamicCast_AsBP_Akai
+[2019.01.22-18.17.32:425][951]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Akai
+	BP_box_C /Game/Maps/UEDPIE_0_Level_Game.Level_Game:PersistentLevel.BP_box_185
+	Function /Game/Blueprints/BP_box.BP_box_C:ExecuteUbergraph_BP_box:0218
+[2019.01.22-18.17.32:426][951]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBP_Akai from function: 'ExecuteUbergraph_BP_box' from node: Add Life in graph: EventGraph in object: BP_box with description: Accessed None trying to read property K2Node_DynamicCast_AsBP_Akai
+[2019.01.22-18.17.33:424][ 11]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Akai
+	BP_box_C /Game/Maps/UEDPIE_0_Level_Game.Level_Game:PersistentLevel.BP_box_185
+	Function /Game/Blueprints/BP_box.BP_box_C:ExecuteUbergraph_BP_box:0218
+[2019.01.22-18.17.33:424][ 11]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBP_Akai from function: 'ExecuteUbergraph_BP_box' from node: Add Life in graph: EventGraph in object: BP_box with description: Accessed None trying to read property K2Node_DynamicCast_AsBP_Akai
+[2019.01.22-18.17.34:425][ 71]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Akai
+	BP_box_C /Game/Maps/UEDPIE_0_Level_Game.Level_Game:PersistentLevel.BP_box_185
+	Function /Game/Blueprints/BP_box.BP_box_C:ExecuteUbergraph_BP_box:0218
+[2019.01.22-18.17.34:425][ 71]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBP_Akai from function: 'ExecuteUbergraph_BP_box' from node: Add Life in graph: EventGraph in object: BP_box with description: Accessed None trying to read property K2Node_DynamicCast_AsBP_Akai
+[2019.01.22-18.17.45:742][750]LogNet: Browse: /Game/Maps/Level_Game2
+[2019.01.22-18.17.45:905][750]LogLoad: LoadMap: /Game/Maps/Level_Game2
+[2019.01.22-18.17.46:415][750]Cmd: MEM
+[2019.01.22-18.17.46:634][750]LogMemory: Platform Memory Stats for Windows
+[2019.01.22-18.17.46:634][750]LogMemory: Process Physical Memory: 824.27 MB used, 1140.61 MB peak
+[2019.01.22-18.17.46:634][750]LogMemory: Process Virtual Memory: 1522.66 MB used, 1548.56 MB peak
+[2019.01.22-18.17.46:634][750]LogMemory: Physical Memory: 3183.71 MB used,  827.68 MB free, 4011.39 MB total
+[2019.01.22-18.17.46:634][750]LogMemory: Virtual Memory: 6475.04 MB used,  827.68 MB free, 134217728.00 MB total
+[2019.01.22-18.17.46:634][750]LogMemory: 
+[2019.01.22-18.17.46:634][750]Allocator Stats for TBB: (not implemented)
+[2019.01.22-18.17.47:426][750]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2019.01.22-18.17.47:443][750]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2019.01.22-18.17.47:455][750]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2019.01.22-18.17.47:458][750]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2019.01.22-18.17.52:439][750]LogAIModule: Creating AISystem for world Level_Game2
+[2019.01.22-18.17.52:440][750]LogLoad: Game class is 'NewGameMode_C'
+[2019.01.22-18.17.52:571][750]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Game2.Level_Game2 up for play (max tick rate 60) at 2019.01.22-19.17.52
+[2019.01.22-18.17.52:572][750]LogWorld: Bringing up level for play took: 0.006448
+[2019.01.22-18.17.52:579][750]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2019.01.22-18.17.52:666][750]LogLoad: Took 6.760785 seconds to LoadMap(/Game/Maps/Level_Game2)
+[2019.01.22-18.18.17:600][232]LogHttp:Warning: 0000026304181300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.18.17:600][232]LogHttp:Warning: 0000026304181300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.18.17:600][232]LogHttp:Warning: 0000026304181300: libcurl info message cache 1 (Closing connection 6)
+[2019.01.22-18.19.14:624][648]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-18.19.14:874][648]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-18.19.31:979][194]LogTemp: Repeting last play command: Selected Viewport
+[2019.01.22-18.19.32:008][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-18.19.32:008][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.22-18.19.32:008][194]PIE: New page: PIE session: Level_Game (22 Jan 2019 20:19:32)
+[2019.01.22-18.19.32:433][194]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Game
+[2019.01.22-18.19.32:533][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100495s)
+[2019.01.22-18.19.32:535][194]LogAIModule: Creating AISystem for world Level_Game
+[2019.01.22-18.19.32:536][194]LogPlayLevel: PIE: World Init took: (0.002462s)
+[2019.01.22-18.19.32:537][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Game.Level_Game to /Game/Maps/UEDPIE_0_Level_Game.Level_Game (0.104682s)
+[2019.01.22-18.19.32:624][194]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.22-18.19.32:679][194]LogInit: FAudioDevice initialized.
+[2019.01.22-18.19.32:730][194]LogLoad: Game class is 'NewGameMode_C'
+[2019.01.22-18.19.32:751][194]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Game.Level_Game up for play (max tick rate 60) at 2019.01.22-19.19.32
+[2019.01.22-18.19.32:756][194]LogWorld: Bringing up level for play took: 0.024166
+[2019.01.22-18.19.32:763][194]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2019.01.22-18.19.32:767][194]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Game 0.538
+[2019.01.22-18.19.32:768][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-18.20.17:582][879]LogHttp:Warning: 0000026304165180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.20.17:582][879]LogHttp:Warning: 0000026304165180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.20.17:582][879]LogHttp:Warning: 0000026304165180: libcurl info message cache 1 (Closing connection 7)
+[2019.01.22-18.21.17:586][474]LogHttp:Warning: 0000026304166500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.21.17:586][474]LogHttp:Warning: 0000026304166500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.21.17:586][474]LogHttp:Warning: 0000026304166500: libcurl info message cache 1 (Closing connection 8)
+[2019.01.22-18.22.34:611][ 92]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-18.22.34:657][ 92]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-18.22.38:513][217]LogTemp: Repeting last play command: Selected Viewport
+[2019.01.22-18.22.38:574][217]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-18.22.38:574][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.22-18.22.38:574][217]PIE: New page: PIE session: Level_Game (22 Jan 2019 20:22:38)
+[2019.01.22-18.22.38:575][217]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Game
+[2019.01.22-18.22.38:720][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144804s)
+[2019.01.22-18.22.38:722][217]LogAIModule: Creating AISystem for world Level_Game
+[2019.01.22-18.22.38:723][217]LogPlayLevel: PIE: World Init took: (0.002279s)
+[2019.01.22-18.22.38:723][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Game.Level_Game to /Game/Maps/UEDPIE_0_Level_Game.Level_Game (0.147734s)
+[2019.01.22-18.22.38:809][217]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.22-18.22.38:865][217]LogInit: FAudioDevice initialized.
+[2019.01.22-18.22.38:916][217]LogLoad: Game class is 'NewGameMode_C'
+[2019.01.22-18.22.38:937][217]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Game.Level_Game up for play (max tick rate 60) at 2019.01.22-19.22.38
+[2019.01.22-18.22.38:942][217]LogWorld: Bringing up level for play took: 0.024754
+[2019.01.22-18.22.38:951][217]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2019.01.22-18.22.38:954][217]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Game 0.725
+[2019.01.22-18.22.38:955][217]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-18.22.51:782][981]LogNet: Browse: /Game/Maps/Level_Game2
+[2019.01.22-18.22.51:782][981]LogLoad: LoadMap: /Game/Maps/Level_Game2
+[2019.01.22-18.22.51:814][981]Cmd: MEM
+[2019.01.22-18.22.51:839][981]LogMemory: Platform Memory Stats for Windows
+[2019.01.22-18.22.51:839][981]LogMemory: Process Physical Memory: 848.59 MB used, 1140.61 MB peak
+[2019.01.22-18.22.51:839][981]LogMemory: Process Virtual Memory: 1645.98 MB used, 1671.43 MB peak
+[2019.01.22-18.22.51:839][981]LogMemory: Physical Memory: 3143.18 MB used,  868.21 MB free, 4011.39 MB total
+[2019.01.22-18.22.51:839][981]LogMemory: Virtual Memory: 6623.05 MB used,  868.21 MB free, 134217728.00 MB total
+[2019.01.22-18.22.51:839][981]LogMemory: 
+[2019.01.22-18.22.51:839][981]Allocator Stats for TBB: (not implemented)
+[2019.01.22-18.22.52:102][981]LogAIModule: Creating AISystem for world Level_Game2
+[2019.01.22-18.22.52:104][981]LogLoad: Game class is 'NewGameMode_C'
+[2019.01.22-18.22.52:110][981]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Game2.Level_Game2 up for play (max tick rate 60) at 2019.01.22-19.22.52
+[2019.01.22-18.22.52:111][981]LogWorld: Bringing up level for play took: 0.004298
+[2019.01.22-18.22.52:117][981]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2019.01.22-18.22.52:119][981]LogLoad: Took 0.337259 seconds to LoadMap(/Game/Maps/Level_Game2)
+[2019.01.22-18.23.14:283][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-18.23.14:325][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-18.23.17:622][453]LogHttp:Warning: 000002635DF4E200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.23.17:622][453]LogHttp:Warning: 000002635DF4E200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.23.17:622][453]LogHttp:Warning: 000002635DF4E200: libcurl info message cache 1 (Closing connection 9)
+[2019.01.22-18.23.28:894][877]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.22-18.23.33:195][ 16]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.01.22-18.23.34:852][ 53]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.22-18.23.45:561][445]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2019.01.22-18.24.00:369][971]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.22-18.24.17:645][524]LogHttp:Warning: 0000026304183100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.24.17:645][524]LogHttp:Warning: 0000026304183100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.24.17:645][524]LogHttp:Warning: 0000026304183100: libcurl info message cache 1 (Closing connection 10)
+[2019.01.22-18.26.17:593][834]LogHttp:Warning: 000002637638B280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.26.17:593][834]LogHttp:Warning: 000002637638B280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.26.17:593][834]LogHttp:Warning: 000002637638B280: libcurl info message cache 1 (Closing connection 11)
+[2019.01.22-18.27.53:677][320]LogSlate: Took 0.000951 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.01.22-18.27.59:387][320]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.22-18.28.00:089][320]LogSavePackage: Save=1566.62ms
+[2019.01.22-18.28.00:089][320]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Level_Game_Auto1F65DB80F4BCB9F8C9398678429961531.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Autosaves/Game/Maps/Level_Game_Auto1.umap'
+[2019.01.22-18.28.00:094][320]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Autosaves/Game/Maps/Level_Game_Auto1.umap
+[2019.01.22-18.28.00:913][320]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_Game' took 7.160
+[2019.01.22-18.28.00:913][320]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 7.160
+[2019.01.22-18.28.17:589][697]LogHttp:Warning: 00000263062DB280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.28.17:589][697]LogHttp:Warning: 00000263062DB280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.28.17:589][697]LogHttp:Warning: 00000263062DB280: libcurl info message cache 1 (Closing connection 12)
+[2019.01.22-18.29.17:628][172]LogHttp:Warning: 00000263062CC280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.29.17:628][172]LogHttp:Warning: 00000263062CC280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.29.17:628][172]LogHttp:Warning: 00000263062CC280: libcurl info message cache 1 (Closing connection 13)
+[2019.01.22-18.29.27:060][478]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2019.01.22-18.30.25:185][362]LogHttp:Warning: 0000026386722F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.30.25:185][362]LogHttp:Warning: 0000026386722F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.30.25:185][362]LogHttp:Warning: 0000026386722F80: libcurl info message cache 1 (Closing connection 14)
+[2019.01.22-18.31.34:945][976]LogHttp:Warning: 00000263842B1D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.31.34:945][976]LogHttp:Warning: 00000263842B1D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.31.34:945][976]LogHttp:Warning: 00000263842B1D80: libcurl info message cache 1 (Closing connection 15)
+[2019.01.22-18.32.18:238][801]LogSlate: Took 0.044806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.22-18.32.19:332][802]LogSlate: Took 0.040004 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.22-18.33.17:263][227]LogHttp:Warning: 00000263062D8E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.33.17:264][227]LogHttp:Warning: 00000263062D8E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.33.17:264][227]LogHttp:Warning: 00000263062D8E80: libcurl info message cache 1 (Closing connection 16)
+[2019.01.22-18.34.17:600][ 59]LogHttp:Warning: 00000263A8BAE800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.34.17:600][ 59]LogHttp:Warning: 00000263A8BAE800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.34.17:600][ 59]LogHttp:Warning: 00000263A8BAE800: libcurl info message cache 1 (Closing connection 17)
+[2019.01.22-18.36.17:632][345]LogHttp:Warning: 0000026376352C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.36.17:632][345]LogHttp:Warning: 0000026376352C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.36.17:632][345]LogHttp:Warning: 0000026376352C80: libcurl info message cache 1 (Closing connection 18)
+[2019.01.22-18.38.17:598][963]LogHttp:Warning: 000002630415B400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.38.17:598][963]LogHttp:Warning: 000002630415B400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.38.17:598][963]LogHttp:Warning: 000002630415B400: libcurl info message cache 1 (Closing connection 19)
+[2019.01.22-18.40.03:172][425]LogHttp:Warning: 00000263AABBE980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.40.03:172][425]LogHttp:Warning: 00000263AABBE980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.40.03:172][425]LogHttp:Warning: 00000263AABBE980: libcurl info message cache 1 (Closing connection 20)
+[2019.01.22-18.41.17:595][267]LogHttp:Warning: 00000263A8B7D180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.41.17:595][267]LogHttp:Warning: 00000263A8B7D180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.41.17:595][267]LogHttp:Warning: 00000263A8B7D180: libcurl info message cache 1 (Closing connection 21)
+[2019.01.22-18.43.14:628][291]LogHttp:Warning: 00000263AB64E500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.43.14:628][291]LogHttp:Warning: 00000263AB64E500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.43.14:628][291]LogHttp:Warning: 00000263AB64E500: libcurl info message cache 1 (Closing connection 22)
+[2019.01.22-18.44.17:615][891]LogHttp:Warning: 00000263AB3B1C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.44.17:616][891]LogHttp:Warning: 00000263AB3B1C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.44.17:616][891]LogHttp:Warning: 00000263AB3B1C00: libcurl info message cache 1 (Closing connection 23)
+[2019.01.22-18.45.17:650][279]LogHttp:Warning: 0000026305841000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.45.17:650][279]LogHttp:Warning: 0000026305841000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.45.17:650][279]LogHttp:Warning: 0000026305841000: libcurl info message cache 1 (Closing connection 24)
+[2019.01.22-18.45.43:642][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.22-18.45.49:410][675]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2019.01.22-18.45.52:093][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.22-18.46.19:241][169]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerVolume (TriggerVolume)
+[2019.01.22-18.46.50:098][740]LogEditorViewport: Clicking on Actor (context menu): TriggerVolume (TriggerVolume)
+[2019.01.22-18.47.16:437][911]Cmd: ACTOR HIDE SELECTED
+[2019.01.22-18.47.17:440][973]Cmd: ACTOR HIDE SELECTED
+[2019.01.22-18.47.17:599][984]LogHttp:Warning: 00000263A8059780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.47.17:599][984]LogHttp:Warning: 00000263A8059780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.47.17:599][984]LogHttp:Warning: 00000263A8059780: libcurl info message cache 1 (Closing connection 25)
+[2019.01.22-18.47.20:401][145]Cmd: ACTOR HIDE SELECTED
+[2019.01.22-18.47.20:682][162]Cmd: ACTOR HIDE SELECTED
+[2019.01.22-18.47.20:932][179]Cmd: ACTOR HIDE SELECTED
+[2019.01.22-18.47.22:035][252]Cmd: TRANSACTION UNDO
+[2019.01.22-18.47.22:035][252]LogEditorTransaction: Undo Hide Selected
+[2019.01.22-18.47.23:798][326]Cmd: TRANSACTION UNDO
+[2019.01.22-18.47.23:798][326]LogEditorTransaction: Undo Hide Selected
+[2019.01.22-18.47.24:748][364]Cmd: TRANSACTION UNDO
+[2019.01.22-18.47.24:748][364]LogEditorTransaction: Undo Hide Selected
+[2019.01.22-18.47.25:257][387]Cmd: TRANSACTION UNDO
+[2019.01.22-18.47.25:257][387]LogEditorTransaction: Undo Hide Selected
+[2019.01.22-18.47.26:275][433]Cmd: TRANSACTION UNDO
+[2019.01.22-18.47.26:275][433]LogEditorTransaction: Undo Hide Selected
+[2019.01.22-18.47.50:194][738]Cmd: ACTOR HIDE SELECTED
+[2019.01.22-18.47.50:914][781]Cmd: ACTOR HIDE SELECTED
+[2019.01.22-18.47.54:407][987]Cmd: TRANSACTION UNDO
+[2019.01.22-18.47.54:407][987]LogEditorTransaction: Undo Hide Selected
+[2019.01.22-18.47.54:838][  5]Cmd: TRANSACTION UNDO
+[2019.01.22-18.47.54:838][  5]LogEditorTransaction: Undo Hide Selected
+[2019.01.22-18.48.03:779][452]Cmd: ACTOR HIDE SELECTED
+[2019.01.22-18.48.05:400][545]Cmd: TRANSACTION UNDO
+[2019.01.22-18.48.05:400][545]LogEditorTransaction: Undo Hide Selected
+[2019.01.22-18.48.15:686][ 46]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.22-18.48.17:610][155]LogHttp:Warning: 00000263AB64E800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.48.17:610][155]LogHttp:Warning: 00000263AB64E800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.48.17:610][155]LogHttp:Warning: 00000263AB64E800: libcurl info message cache 1 (Closing connection 26)
+[2019.01.22-18.48.27:452][757]Cmd: TRANSACTION UNDO
+[2019.01.22-18.48.27:453][757]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.01.22-18.48.35:964][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.22-18.48.40:844][466]LogEditorViewport: Clicking on Actor (LMB): BP_House_C (BP_House)
+[2019.01.22-18.48.45:914][737]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane)
+[2019.01.22-18.48.50:549][979]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2019.01.22-18.49.25:888][238]LogEditorViewport: Clicking on Actor (LMB): BP_House_C (BP_House)
+[2019.01.22-18.49.27:155][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.22-18.49.32:758][671]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2019.01.22-18.49.37:740][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.01.22-18.50.06:467][970]LogRenderer: Reallocating scene render targets to support 812x464 NumSamples 1 (Frame:1).
+[2019.01.22-18.50.17:601][649]LogHttp:Warning: 00000263B591F880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.50.17:601][649]LogHttp:Warning: 00000263B591F880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.50.17:601][649]LogHttp:Warning: 00000263B591F880: libcurl info message cache 1 (Closing connection 27)
+[2019.01.22-18.51.17:595][196]LogHttp:Warning: 0000026376E24D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.51.17:595][196]LogHttp:Warning: 0000026376E24D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.51.17:595][196]LogHttp:Warning: 0000026376E24D00: libcurl info message cache 1 (Closing connection 28)
+[2019.01.22-18.51.34:603][562]BlueprintLog: New page: Compile Level_Game
+[2019.01.22-18.51.46:656][939]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.22-18.51.57:919][157]BlueprintLog: New page: Compile Level_Game
+[2019.01.22-18.52.10:801][232]LogSavePackage: Save=1970.19ms
+[2019.01.22-18.52.10:801][232]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Level_GameCAA1EF0C46007B0E8510DBB43804709C.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_Game.umap'
+[2019.01.22-18.52.10:848][232]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_Game.umap
+[2019.01.22-18.52.10:901][232]LogFileHelpers: Saving map 'Level_Game' took 11.981
+[2019.01.22-18.52.17:585][  3]LogHttp:Warning: 0000026361011D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.52.17:585][  3]LogHttp:Warning: 0000026361011D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.52.17:585][  3]LogHttp:Warning: 0000026361011D80: libcurl info message cache 1 (Closing connection 29)
+[2019.01.22-18.52.35:200][856]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2019.01.22-18.53.43:426][609]LogProperty:Warning: Illegal TEXT reference to a private object in external package (TriggerVolume /Game/Maps/Level_Game.Level_Game:PersistentLevel.TriggerVolume_1) from referencer (K2Node_ActorBoundEvent /Game/Blueprints/BP_Exit.BP_Exit:EventGraph.K2Node_ActorBoundEvent_0).  Import failed...
+[2019.01.22-18.53.43:426][609]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerVolume'/Game/Maps/Level_Game.Level_Game:PersistentLevel.TriggerVolume_1''
+[2019.01.22-18.54.17:579][547]LogHttp:Warning: 00000263B736DC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.54.17:579][547]LogHttp:Warning: 00000263B736DC00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.54.17:579][547]LogHttp:Warning: 00000263B736DC00: libcurl info message cache 1 (Closing connection 30)
+[2019.01.22-18.55.17:587][159]LogHttp:Warning: 00000263A8BD7880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.55.17:587][159]LogHttp:Warning: 00000263A8BD7880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.55.17:587][159]LogHttp:Warning: 00000263A8BD7880: libcurl info message cache 1 (Closing connection 31)
+[2019.01.22-18.55.35:247][633]LogEditorViewport: Clicking on Actor (LMB): BP_Exit_C (BP_Exit)
+[2019.01.22-18.55.43:618][159]LogEditorViewport: Clicking on Actor (LMB): BP_Exit_C (BP_Exit)
+[2019.01.22-18.55.53:599][749]Cmd: DELETE
+[2019.01.22-18.55.53:599][749]Cmd: ACTOR DELETE
+[2019.01.22-18.55.53:662][749]LogEditorActor: Deleted Actor: BP_Exit_C
+[2019.01.22-18.55.53:727][749]LogEditorActor: Deleted 1 Actors (0.090 secs)
+[2019.01.22-18.56.16:946][773]BlueprintLog: New page: Compile BP_Exit
+[2019.01.22-18.56.17:654][777]LogHttp:Warning: 00000263A9307880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.56.17:654][777]LogHttp:Warning: 00000263A9307880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.56.17:654][777]LogHttp:Warning: 00000263A9307880: libcurl info message cache 1 (Closing connection 32)
+[2019.01.22-18.58.17:117][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Exit" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/BP_Exit.uasset" SILENT=true
+[2019.01.22-18.58.17:283][693]LogSavePackage: Save=161.06ms
+[2019.01.22-18.58.17:284][693]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_ExitC9E496A6449F1772E2C215BA8E61087C.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/BP_Exit.uasset'
+[2019.01.22-18.58.17:294][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/BP_Exit.uasset
+[2019.01.22-18.58.17:594][725]LogHttp:Warning: 0000026312B24E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.58.17:594][725]LogHttp:Warning: 0000026312B24E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.58.17:594][725]LogHttp:Warning: 0000026312B24E80: libcurl info message cache 1 (Closing connection 33)
+[2019.01.22-18.59.17:605][785]LogHttp:Warning: 00000263B6E33E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-18.59.17:605][785]LogHttp:Warning: 00000263B6E33E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-18.59.17:605][785]LogHttp:Warning: 00000263B6E33E80: libcurl info message cache 1 (Closing connection 34)
+[2019.01.22-18.59.34:848][318]LogSlate: Took 0.013953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.22-18.59.50:592][ 92]BlueprintLog: New page: Compile BP_GameInstance
+[2019.01.22-18.59.51:534][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BP_GameInstance" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset" SILENT=true
+[2019.01.22-18.59.51:659][152]LogSavePackage: Save=44.51ms
+[2019.01.22-18.59.51:659][152]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_GameInstance6C5D3CAA406BBDEDC454338113F71210.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset'
+[2019.01.22-18.59.51:666][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset
+[2019.01.22-19.00.21:177][644]LogHttp:Warning: 00000263BDA93700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.00.21:177][644]LogHttp:Warning: 00000263BDA93700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.00.21:177][644]LogHttp:Warning: 00000263BDA93700: libcurl info message cache 1 (Closing connection 35)
+[2019.01.22-19.01.07:960][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Enum_Win" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Enum_Win.uasset" SILENT=true
+[2019.01.22-19.01.07:996][251]LogSavePackage: Save=3.08ms
+[2019.01.22-19.01.07:996][251]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Enum_WinEF051F84499F3152F1E16586D9B7A6DA.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Enum_Win.uasset'
+[2019.01.22-19.01.08:003][251]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Enum_Win.uasset
+[2019.01.22-19.01.59:732][303]LogSavePackage: Save=872.03ms
+[2019.01.22-19.01.59:732][303]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Level_Game_Auto269307D084BE0C1BDF30C2392A4204A3B.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Autosaves/Game/Maps/Level_Game_Auto2.umap'
+[2019.01.22-19.01.59:736][303]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Autosaves/Game/Maps/Level_Game_Auto2.umap
+[2019.01.22-19.01.59:740][303]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_Game' took 1.111
+[2019.01.22-19.01.59:740][303]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.111
+[2019.01.22-19.02.17:591][433]LogHttp:Warning: 0000026361021D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.02.17:591][433]LogHttp:Warning: 0000026361021D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.02.17:591][433]LogHttp:Warning: 0000026361021D80: libcurl info message cache 1 (Closing connection 36)
+[2019.01.22-19.03.17:578][629]LogHttp:Warning: 0000026361022380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.03.17:578][629]LogHttp:Warning: 0000026361022380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.03.17:578][629]LogHttp:Warning: 0000026361022380: libcurl info message cache 1 (Closing connection 37)
+[2019.01.22-19.05.17:583][986]LogHttp:Warning: 0000026361021F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.05.17:583][986]LogHttp:Warning: 0000026361021F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.05.17:583][986]LogHttp:Warning: 0000026361021F00: libcurl info message cache 1 (Closing connection 38)
+[2019.01.22-19.06.17:594][100]LogHttp:Warning: 0000026361021F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.06.17:594][100]LogHttp:Warning: 0000026361021F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.06.17:594][100]LogHttp:Warning: 0000026361021F00: libcurl info message cache 1 (Closing connection 39)
+[2019.01.22-19.08.11:371][213]LogHttp:Warning: 00000263C23DE680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.08.11:372][213]LogHttp:Warning: 00000263C23DE680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.08.11:372][213]LogHttp:Warning: 00000263C23DE680: libcurl info message cache 1 (Closing connection 40)
+[2019.01.22-19.09.17:604][123]LogHttp:Warning: 0000026333529900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.09.17:604][123]LogHttp:Warning: 0000026333529900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.09.17:604][123]LogHttp:Warning: 0000026333529900: libcurl info message cache 1 (Closing connection 41)
+[2019.01.22-19.09.46:598][521]BlueprintLog: New page: Compile BP_GameInstance
+[2019.01.22-19.09.46:606][521]LogBlueprint:Warning: [Compiler BP_GameInstance] Warning Can't parse default value '(INVALID)' for  <None> . Property: win_enum.
+[2019.01.22-19.09.46:918][521]BlueprintEditorCompileResults:Warning: Warning Can't parse default value '(INVALID)' for  <None> . Property: win_enum.
+[2019.01.22-19.09.46:919][521]LogBlueprint:Warning: [Compiler BP_GameInstance] Warning [4014.14] Compile of BP_GameInstance successful, but with 1 Warning(s) [in 320 ms] (/Game/Maps/BP_GameInstance.BP_GameInstance)
+[2019.01.22-19.09.47:391][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BP_GameInstance" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset" SILENT=true
+[2019.01.22-19.09.47:496][565]LogSavePackage: Save=21.55ms
+[2019.01.22-19.09.47:496][565]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_GameInstanceC542EE8C41A596C7D55F128FA9953CAC.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset'
+[2019.01.22-19.09.47:502][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset
+[2019.01.22-19.10.17:579][106]LogHttp:Warning: 0000026304A99480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.10.17:579][106]LogHttp:Warning: 0000026304A99480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.10.17:579][106]LogHttp:Warning: 0000026304A99480: libcurl info message cache 1 (Closing connection 42)
+[2019.01.22-19.12.00:625][299]LogSavePackage: Save=822.24ms
+[2019.01.22-19.12.00:625][299]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Level_Game_Auto361B390D14EF61B399DF978BC1A5008BD.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Autosaves/Game/Maps/Level_Game_Auto3.umap'
+[2019.01.22-19.12.00:629][299]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Autosaves/Game/Maps/Level_Game_Auto3.umap
+[2019.01.22-19.12.00:632][299]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_Game' took 0.959
+[2019.01.22-19.12.00:632][299]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.959
+[2019.01.22-19.12.00:651][299]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Exit] ([1] browsable assets)...
+[2019.01.22-19.12.00:671][299]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Exit.BP_Exit]
+[2019.01.22-19.12.00:671][299]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Exit]
+[2019.01.22-19.12.00:802][299]LogSavePackage: Save=52.41ms
+[2019.01.22-19.12.00:802][299]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_Exit_Auto33AF85BBA42E4D46110903892D74DEE1E.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Autosaves/Game/Blueprints/BP_Exit_Auto3.uasset'
+[2019.01.22-19.12.00:811][299]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Autosaves/Game/Blueprints/BP_Exit_Auto3.uasset
+[2019.01.22-19.12.00:811][299]LogFileHelpers: Auto-saving content packages took 0.176
+[2019.01.22-19.12.17:592][304]LogHttp:Warning: 00000263BDE82680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.12.17:592][304]LogHttp:Warning: 00000263BDE82680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.12.17:592][304]LogHttp:Warning: 00000263BDE82680: libcurl info message cache 1 (Closing connection 43)
+[2019.01.22-19.14.00:669][221]LogSavePackage: Save=807.34ms
+[2019.01.22-19.14.00:669][221]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Level_Game2A366973494DB2DABA9EA3A34684A4A0.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_Game.umap'
+[2019.01.22-19.14.00:676][221]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_Game.umap
+[2019.01.22-19.14.00:720][221]LogFileHelpers: Saving map 'Level_Game' took 1.156
+[2019.01.22-19.14.04:877][698]BlueprintLog: New page: Compile BP_Exit
+[2019.01.22-19.14.06:633][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Exit" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/BP_Exit.uasset" SILENT=true
+[2019.01.22-19.14.06:737][881]LogSavePackage: Save=30.05ms
+[2019.01.22-19.14.06:737][881]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_ExitD5BB0BEE452690238E5FC4974ECD239A.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/BP_Exit.uasset'
+[2019.01.22-19.14.06:769][881]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/BP_Exit.uasset
+[2019.01.22-19.14.09:759][231]BlueprintLog: New page: Compile BP_GameInstance
+[2019.01.22-19.14.11:400][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BP_GameInstance" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset" SILENT=true
+[2019.01.22-19.14.11:497][400]LogSavePackage: Save=21.51ms
+[2019.01.22-19.14.11:497][400]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_GameInstance6050B3924BDA07D6407D43AC86FC9C85.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset'
+[2019.01.22-19.14.11:500][400]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset
+[2019.01.22-19.14.17:565][118]LogHttp:Warning: 00000263BD76F100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.14.17:565][118]LogHttp:Warning: 00000263BD76F100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.14.17:565][118]LogHttp:Warning: 00000263BD76F100: libcurl info message cache 1 (Closing connection 44)
+[2019.01.22-19.15.17:584][315]LogHttp:Warning: 0000026305AF6E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.15.17:584][315]LogHttp:Warning: 0000026305AF6E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.15.17:584][315]LogHttp:Warning: 0000026305AF6E00: libcurl info message cache 1 (Closing connection 45)
+[2019.01.22-19.16.17:576][513]LogHttp:Warning: 00000263BD76EF80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.16.17:576][513]LogHttp:Warning: 00000263BD76EF80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.16.17:576][513]LogHttp:Warning: 00000263BD76EF80: libcurl info message cache 1 (Closing connection 46)
+[2019.01.22-19.18.17:566][862]LogHttp:Warning: 00000263BBA3F400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.18.17:566][862]LogHttp:Warning: 00000263BBA3F400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.18.17:566][862]LogHttp:Warning: 00000263BBA3F400: libcurl info message cache 1 (Closing connection 47)
+[2019.01.22-19.19.17:597][  3]LogHttp:Warning: 00000263C2A75300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.19.17:597][  3]LogHttp:Warning: 00000263C2A75300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.19.17:597][  3]LogHttp:Warning: 00000263C2A75300: libcurl info message cache 1 (Closing connection 48)
+[2019.01.22-19.19.33:502][907]LogMetaData: Removing '/Game/Maps/Enum_State.Enum_State' ref from Metadata '/Game/Maps/Enum_Win.PackageMetaData'
+[2019.01.22-19.19.33:580][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Enum_State" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Enum_State.uasset" SILENT=true
+[2019.01.22-19.19.33:596][907]LogSavePackage: Save=7.59ms
+[2019.01.22-19.19.33:596][907]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Enum_StateB51863304DDEDDEA88488DA6D1B30DA9.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Enum_State.uasset'
+[2019.01.22-19.19.33:603][907]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Enum_State.uasset
+[2019.01.22-19.19.34:020][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BP_GameInstance" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset" SILENT=true
+[2019.01.22-19.19.34:214][907]LogSavePackage: Save=110.19ms
+[2019.01.22-19.19.34:214][907]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_GameInstance9D2B68D04A35D47A6C1D9A8BE237168D.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset'
+[2019.01.22-19.19.34:226][907]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset
+[2019.01.22-19.19.38:714][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Enum_State" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Enum_State.uasset" SILENT=true
+[2019.01.22-19.19.38:799][257]LogSavePackage: Save=3.66ms
+[2019.01.22-19.19.38:799][257]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Enum_State0E7247E84F8AC93F2BEA1C8374CE5FDA.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Enum_State.uasset'
+[2019.01.22-19.19.38:802][257]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Enum_State.uasset
+[2019.01.22-19.20.17:590][878]LogHttp:Warning: 00000263BD8A4880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.20.17:590][878]LogHttp:Warning: 00000263BD8A4880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.20.17:590][878]LogHttp:Warning: 00000263BD8A4880: libcurl info message cache 1 (Closing connection 49)
+[2019.01.22-19.21.42:876][608]LogHttp:Warning: 00000263A8269300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.21.42:876][608]LogHttp:Warning: 00000263A8269300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.21.42:876][608]LogHttp:Warning: 00000263A8269300: libcurl info message cache 1 (Closing connection 50)
+[2019.01.22-19.22.05:015][137]BlueprintLog: New page: Compile BP_GameInstance
+[2019.01.22-19.22.06:189][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BP_GameInstance" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset" SILENT=true
+[2019.01.22-19.22.06:290][208]LogSavePackage: Save=20.84ms
+[2019.01.22-19.22.06:290][208]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_GameInstanceA7E2ADCE4B3586FC8A69CEADDC46C6BB.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset'
+[2019.01.22-19.22.06:297][208]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/BP_GameInstance.uasset
+[2019.01.22-19.22.35:854][570]BlueprintLog: New page: Compile BP_Exit
+[2019.01.22-19.22.36:558][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Exit" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/BP_Exit.uasset" SILENT=true
+[2019.01.22-19.22.36:677][621]LogSavePackage: Save=36.95ms
+[2019.01.22-19.22.36:677][621]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_ExitF487B20B49D3ECA465BCDFB8FA989359.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/BP_Exit.uasset'
+[2019.01.22-19.22.36:683][621]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/BP_Exit.uasset
+[2019.01.22-19.22.51:223][817]LogHttp:Warning: 00000263BD8BEB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.22.51:223][817]LogHttp:Warning: 00000263BD8BEB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.22.51:223][817]LogHttp:Warning: 00000263BD8BEB00: libcurl info message cache 1 (Closing connection 51)
+[2019.01.22-19.24.17:599][526]LogHttp:Warning: 00000263D367A380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.24.17:599][526]LogHttp:Warning: 00000263D367A380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.24.17:599][526]LogHttp:Warning: 00000263D367A380: libcurl info message cache 1 (Closing connection 52)
+[2019.01.22-19.26.17:452][337]LogHttp:Warning: 00000263D238B100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.26.17:452][337]LogHttp:Warning: 00000263D238B100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.26.17:452][337]LogHttp:Warning: 00000263D238B100: libcurl info message cache 1 (Closing connection 53)
+[2019.01.22-19.27.17:580][490]LogHttp:Warning: 00000263D07C5780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.27.17:580][490]LogHttp:Warning: 00000263D07C5780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.27.17:580][490]LogHttp:Warning: 00000263D07C5780: libcurl info message cache 1 (Closing connection 54)
+[2019.01.22-19.28.17:591][935]LogHttp:Warning: 00000263D8216800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.28.17:591][935]LogHttp:Warning: 00000263D8216800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.28.17:592][935]LogHttp:Warning: 00000263D8216800: libcurl info message cache 1 (Closing connection 55)
+[2019.01.22-19.29.47:867][270]LogHttp:Warning: 00000263CC555480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.29.47:867][270]LogHttp:Warning: 00000263CC555480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.29.47:867][270]LogHttp:Warning: 00000263CC555480: libcurl info message cache 1 (Closing connection 56)
+[2019.01.22-19.31.00:829][565]LogHttp:Warning: 00000263DDCCF700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.31.00:829][565]LogHttp:Warning: 00000263DDCCF700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.31.00:829][565]LogHttp:Warning: 00000263DDCCF700: libcurl info message cache 1 (Closing connection 57)
+[2019.01.22-19.31.45:721][229]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_Game' took 0.058
+[2019.01.22-19.31.45:784][229]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Akai/BP_Akai] ([1] browsable assets)...
+[2019.01.22-19.31.45:818][229]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/Akai/BP_Akai.BP_Akai]
+[2019.01.22-19.31.45:818][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Akai/BP_Akai]
+[2019.01.22-19.31.46:389][229]LogSavePackage: Save=481.25ms
+[2019.01.22-19.31.46:389][229]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_Akai_Auto4A192B9D448061A3766FCCD8557D57813.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Autosaves/Game/Character/Akai/BP_Akai_Auto4.uasset'
+[2019.01.22-19.31.46:465][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Autosaves/Game/Character/Akai/BP_Akai_Auto4.uasset
+[2019.01.22-19.31.46:465][229]LogFileHelpers: Auto-saving content packages took 0.743
+[2019.01.22-19.32.05:044][337]LogHttp:Warning: 00000263DCFD3400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.32.05:044][337]LogHttp:Warning: 00000263DCFD3400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.32.05:044][337]LogHttp:Warning: 00000263DCFD3400: libcurl info message cache 1 (Closing connection 58)
+[2019.01.22-19.33.17:595][542]LogHttp:Warning: 00000263DCFBD600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.33.17:595][542]LogHttp:Warning: 00000263DCFBD600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.33.17:595][542]LogHttp:Warning: 00000263DCFBD600: libcurl info message cache 1 (Closing connection 59)
+[2019.01.22-19.34.31:376][801]LogHttp:Warning: 00000263EAC0B880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.34.31:376][801]LogHttp:Warning: 00000263EAC0B880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.34.31:376][801]LogHttp:Warning: 00000263EAC0B880: libcurl info message cache 1 (Closing connection 60)
+[2019.01.22-19.35.16:833][500]BlueprintLog: New page: Compile BP_Akai
+[2019.01.22-19.35.19:506][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Akai/BP_Akai" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Character/Akai/BP_Akai.uasset" SILENT=true
+[2019.01.22-19.35.20:033][564]LogSavePackage: Save=450.94ms
+[2019.01.22-19.35.20:033][564]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_Akai1BE660804F67CB1BE54C49B974E77C02.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Character/Akai/BP_Akai.uasset'
+[2019.01.22-19.35.20:095][564]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Character/Akai/BP_Akai.uasset
+[2019.01.22-19.35.35:551][488]LogHttp:Warning: 00000263B6F0F280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.35.35:551][488]LogHttp:Warning: 00000263B6F0F280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.35.35:551][488]LogHttp:Warning: 00000263B6F0F280: libcurl info message cache 1 (Closing connection 61)
+[2019.01.22-19.35.52:350][441]LogAIModule: Creating AISystem for world Level_menu
+[2019.01.22-19.35.52:448][441]Cmd: MAP LOAD FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.22-19.35.52:448][441]LightingResults: New page: Lighting Build
+[2019.01.22-19.35.52:449][441]LoadErrors: New page: Loading map: Level_menu.umap
+[2019.01.22-19.35.52:677][441]MapCheck: New page: Map Check
+[2019.01.22-19.35.52:677][441]LightingResults: New page: Lighting Build
+[2019.01.22-19.35.52:851][441]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.22-19.35.52:931][441]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.22-19.35.53:099][441]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 167.054ms to complete.
+[2019.01.22-19.35.53:100][441]LogFileHelpers: Loading map 'Level_menu' took 0.665
+[2019.01.22-19.36.52:131][730]LogHttp:Warning: 00000263F3CA9180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.36.52:131][730]LogHttp:Warning: 00000263F3CA9180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.36.52:131][730]LogHttp:Warning: 00000263F3CA9180: libcurl info message cache 1 (Closing connection 62)
+[2019.01.22-19.38.17:592][730]LogHttp:Warning: 00000263F43EA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.38.17:592][730]LogHttp:Warning: 00000263F43EA800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.38.17:592][730]LogHttp:Warning: 00000263F43EA800: libcurl info message cache 1 (Closing connection 63)
+[2019.01.22-19.39.17:578][291]LogHttp:Warning: 00000263F470B700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.39.17:578][291]LogHttp:Warning: 00000263F470B700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.39.17:578][291]LogHttp:Warning: 00000263F470B700: libcurl info message cache 1 (Closing connection 64)
+[2019.01.22-19.40.18:234][909]LogHttp:Warning: 00000263EBAF8880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.40.18:234][909]LogHttp:Warning: 00000263EBAF8880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.40.18:234][909]LogHttp:Warning: 00000263EBAF8880: libcurl info message cache 1 (Closing connection 65)
+[2019.01.22-19.42.17:590][985]LogHttp:Warning: 00000263F6B3FD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.42.17:590][985]LogHttp:Warning: 00000263F6B3FD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.42.17:590][985]LogHttp:Warning: 00000263F6B3FD00: libcurl info message cache 1 (Closing connection 66)
+[2019.01.22-19.43.33:381][502]LogHttp:Warning: 00000263F756BB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.43.33:382][502]LogHttp:Warning: 00000263F756BB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.43.33:382][502]LogHttp:Warning: 00000263F756BB80: libcurl info message cache 1 (Closing connection 67)
+[2019.01.22-19.44.38:816][294]LogHttp:Warning: 00000263F3170E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.44.38:816][294]LogHttp:Warning: 00000263F3170E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.44.38:816][294]LogHttp:Warning: 00000263F3170E80: libcurl info message cache 1 (Closing connection 68)
+[2019.01.22-19.46.01:691][250]BlueprintLog: New page: Compile UI_menu
+[2019.01.22-19.46.01:911][250]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2019.01.22-19.46.15:429][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI_menu" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/UI/UI_menu.uasset" SILENT=true
+[2019.01.22-19.46.15:562][ 59]LogSavePackage: Save=52.19ms
+[2019.01.22-19.46.15:562][ 59]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/UI_menu5E6D886D43A3D2019FB799B2B1C2649C.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/UI/UI_menu.uasset'
+[2019.01.22-19.46.15:570][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/UI/UI_menu.uasset
+[2019.01.22-19.46.17:622][182]LogHttp:Warning: 00000263F6467100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.46.17:622][182]LogHttp:Warning: 00000263F6467100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.46.17:622][182]LogHttp:Warning: 00000263F6467100: libcurl info message cache 1 (Closing connection 69)
+[2019.01.22-19.47.07:536][162]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_menu' took 0.060
+[2019.01.22-19.47.07:541][162]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Exit] ([1] browsable assets)...
+[2019.01.22-19.47.07:561][162]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Exit.BP_Exit]
+[2019.01.22-19.47.07:562][162]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Exit]
+[2019.01.22-19.47.07:677][162]LogSavePackage: Save=36.66ms
+[2019.01.22-19.47.07:677][162]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_Exit_Auto515E805AD49578C1C79F6CFAE69ABE653.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Autosaves/Game/Blueprints/BP_Exit_Auto5.uasset'
+[2019.01.22-19.47.07:680][162]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/Autosaves/Game/Blueprints/BP_Exit_Auto5.uasset
+[2019.01.22-19.47.07:680][162]LogFileHelpers: Auto-saving content packages took 0.142
+[2019.01.22-19.48.17:599][357]LogHttp:Warning: 00000263F3CFC580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.48.17:599][357]LogHttp:Warning: 00000263F3CFC580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.48.17:600][357]LogHttp:Warning: 00000263F3CFC580: libcurl info message cache 1 (Closing connection 70)
+[2019.01.22-19.50.17:618][557]LogHttp:Warning: 00000263F3CFE980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.50.17:618][557]LogHttp:Warning: 00000263F3CFE980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.50.17:618][557]LogHttp:Warning: 00000263F3CFE980: libcurl info message cache 1 (Closing connection 71)
+[2019.01.22-19.50.51:475][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Exit" FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/BP_Exit.uasset" SILENT=true
+[2019.01.22-19.50.51:585][566]LogSavePackage: Save=31.45ms
+[2019.01.22-19.50.51:585][566]LogSavePackage: Moving '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Saved/BP_Exit820FAD0241099BDD63356CA3731F0D07.tmp' to '../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/BP_Exit.uasset'
+[2019.01.22-19.50.51:592][566]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/BP_Exit.uasset
+[2019.01.22-19.51.13:209][746]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cone_Brush_StaticMesh'
+[2019.01.22-19.51.13:209][746]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cone_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/Cone_Brush_StaticMesh_Blueprint.uasset.
+[2019.01.22-19.51.13:210][746]LoadErrors:Error: Error /Game/Blueprints/Cone_Brush_StaticMesh_Blueprint : Can't find file for asset. /Game/staticMeshs/Cone_Brush_StaticMesh
+[2019.01.22-19.51.13:210][746]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cylinder_Brush_StaticMesh'
+[2019.01.22-19.51.13:211][746]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cylinder_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/Cone_Brush_StaticMesh_Blueprint.uasset.
+[2019.01.22-19.51.13:211][746]LoadErrors:Error: Error /Game/Blueprints/Cone_Brush_StaticMesh_Blueprint : Can't find file for asset. /Game/staticMeshs/Cylinder_Brush_StaticMesh
+[2019.01.22-19.51.13:212][746]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cone_Brush_StaticMesh'
+[2019.01.22-19.51.13:212][746]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cone_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/Cone_Brush_StaticMesh_Blueprint.uasset.
+[2019.01.22-19.51.13:213][746]LogLinker:Warning: Can't find file '/Game/staticMeshs/Cylinder_Brush_StaticMesh'
+[2019.01.22-19.51.13:213][746]LogLinker:Warning: Can't find file for asset '/Game/staticMeshs/Cylinder_Brush_StaticMesh' while loading ../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Blueprints/Cone_Brush_StaticMesh_Blueprint.uasset.
+[2019.01.22-19.51.17:133][746]LogAIModule: Creating AISystem for world Level_Game
+[2019.01.22-19.51.17:234][746]Cmd: MAP LOAD FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_Game.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.22-19.51.17:234][746]LightingResults: New page: Lighting Build
+[2019.01.22-19.51.17:235][746]LoadErrors: New page: Loading map: Level_Game.umap
+[2019.01.22-19.51.17:291][746]MapCheck: New page: Map Check
+[2019.01.22-19.51.17:291][746]LightingResults: New page: Lighting Build
+[2019.01.22-19.51.20:160][746]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.22-19.51.20:331][746]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.22-19.51.20:503][746]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 172.397ms to complete.
+[2019.01.22-19.51.20:504][746]LogFileHelpers: Loading map 'Level_Game' took 3.271
+[2019.01.22-19.51.25:721][ 43]LogTemp: Repeting last play command: Selected Viewport
+[2019.01.22-19.51.25:762][ 43]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-19.51.25:763][ 43]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.22-19.51.25:763][ 43]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2019.01.22-19.51.25:914][ 43]LogPlayLevel: PlayLevel: Blueprint regeneration took 151 ms (1 blueprints)
+[2019.01.22-19.51.25:950][ 43]PIE: New page: PIE session: Level_Game (22 Jan 2019 21:51:25)
+[2019.01.22-19.51.25:951][ 43]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Game
+[2019.01.22-19.51.26:023][ 43]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071182s)
+[2019.01.22-19.51.26:024][ 43]LogAIModule: Creating AISystem for world Level_Game
+[2019.01.22-19.51.26:024][ 43]LogPlayLevel: PIE: World Init took: (0.001796s)
+[2019.01.22-19.51.26:025][ 43]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Game.Level_Game to /Game/Maps/UEDPIE_0_Level_Game.Level_Game (0.073591s)
+[2019.01.22-19.51.26:192][ 43]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.22-19.51.26:403][ 43]LogInit: FAudioDevice initialized.
+[2019.01.22-19.51.26:453][ 43]LogLoad: Game class is 'NewGameMode_C'
+[2019.01.22-19.51.26:477][ 43]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Game.Level_Game up for play (max tick rate 60) at 2019.01.22-20.51.26
+[2019.01.22-19.51.26:495][ 43]LogWorld: Bringing up level for play took: 0.040271
+[2019.01.22-19.51.26:516][ 43]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2019.01.22-19.51.26:537][ 43]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Game 0.309
+[2019.01.22-19.51.26:538][ 43]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-19.51.32:854][413]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-19.51.32:895][413]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-19.51.59:514][943]LogTemp: Repeting last play command: Selected Viewport
+[2019.01.22-19.51.59:554][943]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-19.51.59:554][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.22-19.51.59:554][943]PIE: New page: PIE session: Level_Game (22 Jan 2019 21:51:59)
+[2019.01.22-19.51.59:555][943]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Game
+[2019.01.22-19.51.59:579][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023583s)
+[2019.01.22-19.51.59:580][943]LogAIModule: Creating AISystem for world Level_Game
+[2019.01.22-19.51.59:580][943]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2019.01.22-19.51.59:580][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Game.Level_Game to /Game/Maps/UEDPIE_0_Level_Game.Level_Game (0.024799s)
+[2019.01.22-19.51.59:631][943]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.22-19.51.59:650][943]LogInit: FAudioDevice initialized.
+[2019.01.22-19.51.59:685][943]LogLoad: Game class is 'NewGameMode_C'
+[2019.01.22-19.51.59:692][943]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Game.Level_Game up for play (max tick rate 60) at 2019.01.22-20.51.59
+[2019.01.22-19.51.59:694][943]LogWorld: Bringing up level for play took: 0.008318
+[2019.01.22-19.51.59:697][943]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2019.01.22-19.51.59:698][943]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Game -0.53
+[2019.01.22-19.51.59:699][943]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-19.52.01:505][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-19.52.01:544][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Game.Level_Game:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game' with GeneratedClass '/Game/Maps/Level_Game.Level_Game_C' with ClassGeneratedBy '/Game/Maps/Level_Game.Level_Game:PersistentLevel.Level_Game'
+[2019.01.22-19.52.03:389][155]LogHttp:Warning: 0000026383EF6980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.22-19.52.03:389][155]LogHttp:Warning: 0000026383EF6980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.22-19.52.03:389][155]LogHttp:Warning: 0000026383EF6980: libcurl info message cache 1 (Closing connection 72)
+[2019.01.22-19.52.15:264][839]LogAIModule: Creating AISystem for world Level_menu
+[2019.01.22-19.52.15:315][839]Cmd: MAP LOAD FILE="../../../../../../Users/Hyacinthe/Documents/Code/Unreal_Projects/testAnim/Content/Maps/Level_menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.22-19.52.15:315][839]LightingResults: New page: Lighting Build
+[2019.01.22-19.52.15:316][839]LoadErrors: New page: Loading map: Level_menu.umap
+[2019.01.22-19.52.15:319][839]MapCheck: New page: Map Check
+[2019.01.22-19.52.15:319][839]LightingResults: New page: Lighting Build
+[2019.01.22-19.52.15:500][839]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.22-19.52.15:583][839]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.22-19.52.15:753][839]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 169.621ms to complete.
+[2019.01.22-19.52.15:755][839]LogFileHelpers: Loading map 'Level_menu' took 0.441
+[2019.01.22-19.52.17:400][935]LogTemp: Repeting last play command: Selected Viewport
+[2019.01.22-19.52.17:437][935]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_menu.Level_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_menu.Level_menu:PersistentLevel.Level_menu' with GeneratedClass '/Game/Maps/Level_menu.Level_menu_C' with ClassGeneratedBy '/Game/Maps/Level_menu.Level_menu:PersistentLevel.Level_menu'
+[2019.01.22-19.52.17:437][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.22-19.52.17:437][935]PIE: New page: PIE session: Level_menu (22 Jan 2019 21:52:17)
+[2019.01.22-19.52.17:438][935]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_menu
+[2019.01.22-19.52.17:439][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001161s)
+[2019.01.22-19.52.17:440][935]LogAIModule: Creating AISystem for world Level_menu
+[2019.01.22-19.52.17:440][935]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2019.01.22-19.52.17:440][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_menu.Level_menu to /Game/Maps/UEDPIE_0_Level_menu.Level_menu (0.002384s)
+[2019.01.22-19.52.17:488][935]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.22-19.52.17:506][935]LogInit: FAudioDevice initialized.
+[2019.01.22-19.52.17:927][935]LogLoad: Game class is 'NewGameMode_C'
+[2019.01.22-19.52.17:931][935]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_menu.Level_menu up for play (max tick rate 60) at 2019.01.22-20.52.17
+[2019.01.22-19.52.17:932][935]LogWorld: Bringing up level for play took: 0.002878
+[2019.01.22-19.52.17:940][935]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_menu -0.288
+[2019.01.22-19.52.17:940][935]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_menu.Level_menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_menu.Level_menu:PersistentLevel.Level_menu' with GeneratedClass '/Game/Maps/Level_menu.Level_menu_C' with ClassGeneratedBy '/Game/Maps/Level_menu.Level_menu:PersistentLevel.Level_menu'
+[2019.01.22-19.52.29:777][644]LogNet: Browse: /Game/Maps/Level_Game
+[2019.01.22-19.52.29:777][644]LogLoad: LoadMap: /Game/Maps/Level_Game
+[2019.01.22-19.52.29:826][644]Cmd: MEM
+[2019.01.22-19.52.29:869][644]LogMemory: Platform Memory Stats for Windows
+[2019.01.22-19.52.29:869][644]LogMemory: Process Physical Memory: 1461.08 MB used, 1462.91 MB peak
+[2019.01.22-19.52.29:869][644]LogMemory: Process Virtual Memory: 3838.43 MB used, 3956.94 MB peak
+[2019.01.22-19.52.29:869][644]LogMemory: Physical Memory: 3274.52 MB used,  736.86 MB free, 4011.39 MB total
+[2019.01.22-19.52.29:869][644]LogMemory: Virtual Memory: 8837.66 MB used,  736.86 MB free, 134217728.00 MB total
+[2019.01.22-19.52.29:869][644]LogMemory: 
+[2019.01.22-19.52.29:869][644]Allocator Stats for TBB: (not implemented)
+[2019.01.22-19.52.32:297][644]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.244 s
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: === Handled ensure: ===
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: 
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1305]
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: 
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: Stack: 
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E29BE2B6
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E276B8C2
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E2781E86
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000D412BCF7
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000D40FC23D
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E1FF0377
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E22F31A6
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E2309393
+[2019.01.22-19.52.32:297][644]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E230891A
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D7A15ACF
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D79CEEA8
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D7A3460D
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DBE82F55
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DC6A8D86
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: UE4Editor.exe!0x00000000A4CBE2B2
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: UE4Editor.exe!0x00000000A4CAF0B0
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: UE4Editor.exe!0x00000000A4CAF12A
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: UE4Editor.exe!0x00000000A4CC0CF9
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: UE4Editor.exe!0x00000000A4CC25F7
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: KERNEL32.DLL!0x0000000026F23034
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: ntdll.dll!0x00000000294B3691
+[2019.01.22-19.52.32:298][644]LogOutputDevice:Error: 
+[2019.01.22-19.52.32:300][644]LogStats:                SubmitErrorReport -  0.000 s
